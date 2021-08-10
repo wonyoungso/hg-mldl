@@ -1,3 +1,11 @@
+Then, create a new virtual environment---I like placing it in the root folder of the repository---and activate it.
+
+# Create the environment...
+python3 -m virtualenv ./venv
+# ...and activate it.
+. ./venv/bin/activate
+
+
 # <혼자 공부하는 머신러닝+딥러닝>의 주피터 노트북
 
 이 저장소는 한빛미디어에서 출간한 책인 [혼자 공부하는 머신러닝+딥러닝](https://tensorflow.blog/hg-mldl/)에 포함된 코드를 주피터 노트북으로 제공합니다.
