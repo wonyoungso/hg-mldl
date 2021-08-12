@@ -1,10 +1,15 @@
 Then, create a new virtual environment---I like placing it in the root folder of the repository---and activate it.
 
 # Create the environment...
-python3 -m virtualenv ./venv
+python -m virtualenv ./venv
 # ...and activate it.
 . ./venv/bin/activate
 
+Finally, install dependencies!
+
+```bash
+pip install -r requirements.txt
+```
 
 # <혼자 공부하는 머신러닝+딥러닝>의 주피터 노트북
 
